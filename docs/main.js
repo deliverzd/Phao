@@ -11,5 +11,17 @@ $(document).ready(function(){
   $('#recovered').text(response.Recovered);
   $('#hospitalized').text(response.Hospitalized);
   $('#deaths').text(response.Deaths);
+ }).fali(function(){
+
+  let failtext = "ขออภัย,ไม่สามารถเเสดงผลได้";
+
+  $('#confirmed').text(failtext);
+
+  $('#recovered').text(failtext);
+
+  $('#hospitalized').text(failtext);
+
+  $('#deaths').text(failtext);
+
  });
 });
