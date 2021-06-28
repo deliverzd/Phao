@@ -11,7 +11,7 @@ $(document).ready(function(){
   $('#recovered').text(response.Recovered);
   $('#hospitalized').text(response.Hospitalized);
   $('#deaths').text(response.Deaths);
- }).fali(function(){
+ }).fail(function(){
 
   let failtext = "ขออภัย,ไม่สามารถเเสดงผลได้";
 
