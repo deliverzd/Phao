@@ -3,7 +3,7 @@ $(document).ready(function(){
   "async": true,
   "crossDomain": true,
   "url": "https://covid19.th-stat.com/json/covid19v2/getTodayCases.json",
-  "method": "GET",
+  "method": "GET"
  };
  
  $.ajax(settings).done(function(response) {
