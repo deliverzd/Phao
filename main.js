@@ -2,7 +2,7 @@ $(document).ready(function(){
  const settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://covid19.th-stat.com/json/covid19v2/getTodayCases.json",
+  "url": "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all",
   "method": "GET",
  };
  
