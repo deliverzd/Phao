@@ -10,6 +10,6 @@ $(document).ready(function(){
   $('#confirmed').text(response.Confirmed);
   $('#recovered').text(response.Recovered);
   $('#hospitalized').text(response.Hospitalized);
-  $('#deaths').text(response.Deaths);
+  $('#deaths').text(response.new_death);
  });
 });
